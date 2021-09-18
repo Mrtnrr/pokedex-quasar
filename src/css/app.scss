@@ -1,0 +1,61 @@
+
+//cards global
+.q-card-default {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  vertical-align: top;
+  background: #403f3f;
+  position: relative;
+}
+
+.q-card-default-noShadow {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0),
+  0 2px 2px rgba(0, 0, 0, 0),
+  0 3px 1px -2px rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  vertical-align: top;
+  background: transparent;
+  position: relative;
+}
+
+
+//background chart and spiner
+.bg-chart-card {
+  background: rgba(34,34,34,1);
+}
+
+
+
+//botton card
+.btn-rigth {
+  position: absolute;
+  top: 1em;
+  right: 0em;
+  z-index: 100;
+}
+
+//icons cards
+.icon-coins {
+  font-size: 5em;
+  left: -0.25em;
+  z-index: 100;
+}
+
+//select hand
+.select-btn {
+  cursor: pointer;
+  cursor: hand;
+}
+
+//class global btn 
+.q-btn-style {
+  z-index: 100;
+  background: linear-gradient(90deg, #4197ee 0%, #79bbff 100%);
+  color: white;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+}
+
+
+
